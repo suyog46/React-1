@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
+        var fname="suyog"
+        function Header(){ //function ko name chai capital ma hunu paryo
+            return"I am header"
+        }
+        function Yunika(props){
+          return  <h1>yunika is {props.a}</h1>
+        }
+            //render le chai yeuta matra return garna sakxa ..so multiple component return garna xa vani yeuta div ma halera return garni
+
+        ReactDOM.createRoot(document.getElementById('root')).render(<>
+        <Header/>
+        <Header/>
+        <Yunika a="bad" />
+        <Yunika a="lovely" />
+        <Yunika a="xuchhi" />
+        </>) 
+    
+         </script>
+</body>
+</html>
