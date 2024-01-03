@@ -1,0 +1,10 @@
+.i{
+    
+    height:220px;
+object-fit: cover;
+
+}
+.card-body{
+    height:250px;
+    overflow: hidden;
+}
