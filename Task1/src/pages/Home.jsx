@@ -1,10 +1,12 @@
 import React from 'react'
 import data from '../Data'
 import '../style.css'
-function Home(props) {
+function Home(props) { 
     let dd=data.filter((b)=>b.category==props.tt)
   return (
     <>
+    <h1>This is the home page</h1>
+    <h3>See the nav links</h3>
     <section className='container'>
         <h1>{props.tt}</h1>
     

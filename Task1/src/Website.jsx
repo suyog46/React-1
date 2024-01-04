@@ -7,9 +7,7 @@ function Website() {
     return (
         <>
             <Navbar />
-            <Home tt="men's clothing"/>
-            <Home tt="women's clothing"/>
-            <Home tt="electronics"/>
+     
 
             <Footer />
         </>
