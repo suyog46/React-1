@@ -4,6 +4,7 @@ function Userefrence() {
     let a=useRef()
     let q=()=>{
         a.current.focus(); //csss change garna milyo
+        //a.current chai useref kai attribute ho
     }
   return (
     <>
